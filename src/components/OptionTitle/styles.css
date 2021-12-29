@@ -1,0 +1,14 @@
+.option-title {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    flex-shrink: 0;
+    padding: 2% 0;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 481px) {
+    .option-title {
+        font-size: 1.9rem;
+    }
+}

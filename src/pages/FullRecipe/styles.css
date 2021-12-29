@@ -1,0 +1,139 @@
+.arrow-icon {
+    font-size: 2.7rem;
+    color: #2c3b28;
+    position: absolute;
+    padding: 2%;
+    z-index: 1;
+}
+
+.full-recipe-info {
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: -20px;
+    position: relative;
+    background-color: #ece9e0;
+}
+
+.full-recipe-title {
+    padding-top: 5%;
+}
+
+.label-ctn {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+.label {
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: 0 0 60px 0 #89886a;
+}
+
+.nutrient-ctn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.full-recipe-info h2 {
+    font-size: 1.5rem;
+    padding: 5% 0 3px 0;
+}
+
+@media (min-width: 481px) {
+    .arrow-icon {
+        font-size: 4rem;
+    }
+
+    .full-recipe-info {
+        margin: 0;
+    }
+
+    .full-recipe-title {
+        font-size: 2.4rem;
+        padding-top: 2%;
+    }
+
+    .full-recipe-info h2 {
+        font-size: 1.9rem;
+        padding: 5% 0 2% 0;
+    }
+
+    .label-ctn {
+        width: 80%;
+        margin: auto;
+    }
+
+    .label {
+        font-size: 1.3rem;
+        box-shadow: 0 0 70px 0 #89886a;
+    }
+
+    .nutrient-ctn {
+        padding: 0 2%;
+    }
+}
+
+@media (min-width: 769px) {
+    .arrow-icon {
+        font-size: 5.5rem;
+    }
+
+    .full-recipe-title {
+        font-size: 3rem;
+        padding-top: 2%;
+    }
+
+    .full-recipe-info h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .arrow-icon {
+        left: 0;
+        top: 0;
+    }
+
+    .full-recipe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .full-recipe-info {
+        width: 40%;
+        text-align: left;
+        height: 400px;
+    }
+
+    .full-recipe-title {
+        font-size: 1.7rem;
+        padding-bottom: 1%;
+    }
+
+    .full-recipe-info h2 {
+        font-size: 1.2rem;
+        padding: 4% 0 2% 0;
+    }
+
+    .label-ctn {
+        width: 100%;
+        justify-content: left;
+        background-color: #ece9e0;
+        padding: 2% 0;
+    }
+
+    .label {
+        font-size: 0.8rem;
+        margin: 0 2% 0 0;
+        box-shadow: 0 0 70px 0 #89886a;
+    }
+
+    .nutrient-ctn {
+        justify-content: left;
+        padding: 0;
+    }
+}

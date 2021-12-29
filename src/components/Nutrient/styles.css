@@ -1,0 +1,30 @@
+.nutrient-ctn {
+    display: flex;
+}
+
+.nutrient {
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: 0 0 60px 0 #89886a;
+    width: 25%;
+    margin: 2%;
+    text-align: center;
+}
+
+@media (min-width: 481px) {
+    .nutrient {
+        box-shadow: 0 0 70px 0 #89886a;
+        font-size: 1.3rem;
+        padding: 1%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .nutrient {
+        box-shadow: 0 0 70px 0 #89886a;
+        font-size: 0.8rem;
+        padding: 1%;
+        width: 15%;
+        margin: 0 2% 0 0;
+    }
+}

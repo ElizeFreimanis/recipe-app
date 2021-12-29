@@ -1,0 +1,64 @@
+.ingredient-list {
+    display: inline-flex;
+    overflow: scroll;
+    max-width: 100%;
+    padding-bottom: 3%;
+}
+
+.ingredient-list::-webkit-scrollbar {
+    display: none;
+}
+
+.ingredient-img {
+    width: 70px;
+    border-radius: 50%;
+    padding-bottom: 6%;
+}
+
+.ingredient-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+@media (min-width: 481px) {
+    .ingredient-img {
+        width: 90px;
+    }
+
+    .ingredient {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .ingredient-img {
+        width: 120px;
+    }
+
+    .ingredient {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .ingredient-img {
+        width: 60px;
+    }
+
+    .ingredient-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ingredient {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .ingredient-list li {
+        margin: 0 10px 10px 0;
+        width: 80px;
+    }
+}
