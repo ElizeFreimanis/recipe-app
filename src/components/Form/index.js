@@ -100,25 +100,25 @@ export default function Form({ setRecipes }) {
                     selected={mealType.includes('breakfast')}
                     text='Breakfast'
                     onClick={() => clickedMealType('breakfast')}
-                    backgroundImg='/images/breakfast.jpg'
+                    backgroundImg='./images/breakfast.jpg'
                 />
                 <Option
                     selected={mealType.includes('lunch')}
                     text='Lunch'
                     onClick={() => clickedMealType('lunch')}
-                    backgroundImg='/images/lunch.jpg'
+                    backgroundImg='./images/lunch.jpg'
                 />
                 <Option
                     selected={mealType.includes('dinner')}
                     onClick={() => clickedMealType('dinner')}
                     text='Dinner'
-                    backgroundImg='/images/dinner.jpg'
+                    backgroundImg='./images/dinner.jpg'
                 />
                 <Option
                     selected={mealType.includes('snack')}
                     onClick={() => clickedMealType('snack')}
                     text='Snack'
-                    backgroundImg='/images/snack.jpg'
+                    backgroundImg='./images/snack.jpg'
                 />
             </div>
             <hr />
@@ -129,25 +129,25 @@ export default function Form({ setRecipes }) {
                     selected={diet.includes('high-fiber')}
                     onClick={() => clickedDiet('high-fiber')}
                     text='High-fiber'
-                    backgroundImg='/images/fiber.jpg'
+                    backgroundImg='./images/fiber.jpg'
                 />
                 <Option
                     selected={diet.includes('high-protein')}
                     onClick={() => clickedDiet('high-protein')}
                     text='High-protein'
-                    backgroundImg='/images/protein.jpg'
+                    backgroundImg='./images/protein.jpg'
                 />
                 <Option
                     selected={diet.includes('low-carb')}
                     onClick={() => clickedDiet('low-carb')}
                     text='Low-carb'
-                    backgroundImg='/images/carb.jpg'
+                    backgroundImg='./images/carb.jpg'
                 />
                 <Option
                     selected={diet.includes('low-fat')}
                     onClick={() => clickedDiet('low-fat')}
                     text='Low-fat'
-                    backgroundImg='/images/fat.jpg'
+                    backgroundImg='./images/fat.jpg'
                 />
             </div>
             <hr />
@@ -157,43 +157,43 @@ export default function Form({ setRecipes }) {
                     selected={cuisine.includes('italian')}
                     onClick={() => clickedCuisine('italian')}
                     text='Italian'
-                    backgroundImg='/images/italian.jpg'
+                    backgroundImg='./images/italian.jpg'
                 />
                 <Option
                     selected={cuisine.includes('american')}
                     onClick={() => clickedCuisine('american')}
                     text='American'
-                    backgroundImg='/images/american.jpg'
+                    backgroundImg='./images/american.jpg'
                 />
                 <Option
                     selected={cuisine.includes('asian')}
                     onClick={() => clickedCuisine('asian')}
                     text='Asian'
-                    backgroundImg='/images/asian.jpg'
+                    backgroundImg='./images/asian.jpg'
                 />
                 <Option
                     selected={cuisine.includes('indian')}
                     onClick={() => clickedCuisine('indian')}
                     text='Indian'
-                    backgroundImg='/images/indian.jpg'
+                    backgroundImg='./images/indian.jpg'
                 />
                 <Option
                     selected={cuisine.includes('mexican')}
                     onClick={() => clickedCuisine('mexican')}
                     text='Mexican'
-                    backgroundImg='/images/mexican.jpg'
+                    backgroundImg='./images/mexican.jpg'
                 />
                 <Option
                     selected={cuisine.includes('nordic')}
                     onClick={() => clickedCuisine('nordic')}
                     text='Nordic'
-                    backgroundImg='/images/nordic.jpg'
+                    backgroundImg='./images/nordic.jpg'
                 />
                 <Option
                     selected={cuisine.includes('middle eastern')}
                     onClick={() => clickedCuisine('middle eastern')}
                     text='Middle Eastern'
-                    backgroundImg='/images/middleeastern.jpg'
+                    backgroundImg='./images/middleeastern.jpg'
                 />
             </div>
         </div>
