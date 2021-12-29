@@ -10,7 +10,7 @@ import App from './App';
 ReactDOM.render(
     <BrowserRouter>
         <Routes>
-            <Route path='/' element={<App />}>
+            <Route path='/recipe-app/' element={<App />}>
                 <Route index element={<Home />} />
                 <Route path=':id' element={<FullRecipe />} />
             </Route>
