@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import FullRecipe from './pages/FullRecipe';
@@ -8,13 +8,13 @@ import FullRecipe from './pages/FullRecipe';
 import App from './App';
 
 ReactDOM.render(
-    <BrowserRouter>
+    <HashRouter basename='/'>
         <Routes>
-            <Route path='/recipe-app/' element={<App />}>
+            <Route path='/' element={<App />}>
                 <Route index element={<Home />} />
                 <Route path=':id' element={<FullRecipe />} />
             </Route>
         </Routes>
-    </BrowserRouter>,
+    </HashRouter>,
     document.getElementById('root')
 );

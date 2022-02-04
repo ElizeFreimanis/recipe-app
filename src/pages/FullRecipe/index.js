@@ -40,7 +40,7 @@ function FullRecipe() {
     return (
         <div className='full-recipe'>
             <IconContext.Provider value={{ className: 'arrow-icon' }}>
-                <Link to={'/recipe-app'}>
+                <Link to='/'>
                     <fiIcons.FiArrowLeft />
                 </Link>
             </IconContext.Provider>
