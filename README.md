@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Recipe App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Visit the app: [https://elizefreimanis.github.io/recipe-app/](https://elizefreimanis.github.io/recipe-app/).
 
 ## Available Scripts
 
